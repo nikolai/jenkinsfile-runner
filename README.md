@@ -34,7 +34,8 @@ Next, create a directory and assemble all the plugins that you'd like to use wit
 One way to do this is to run Jenkins setup wizard and install the default set of plugins.
 This is a gap intended to be filled with [configuration as code](https://github.com/jenkinsci/configuration-as-code-plugin)
 ```
-JENKINS_HOME=/tmp/jenkins_home java -jar jenkins.war
+JENKINS_HOME=/tmp/jenkins_home
+java -jar jenkins.war
 # go to http://localhost:8080/, follow the installation step
 # and install the recommended set of plugins
 ```
